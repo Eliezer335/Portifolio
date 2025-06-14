@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -11,27 +10,35 @@ body {
 .cabecario {
     width: 100%;
     height: 100px;
-    margin-top: 0;
+    margin-top: 20px;
     background-color: #F2E5D1;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.btn_cabecario{
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 35px;
-    box-sizing: border-box;
-    
+    align-items: center;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 .logo_cabecario{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-image: url(./Images/CarFlix\ .png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 50%;
-
+    margin-left: 150px;
 }
 
 .souEu {
@@ -64,8 +71,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(184, 184, 184);
-
+    background-color: rgba(184, 184, 184, 0.842);
 }
 
 
