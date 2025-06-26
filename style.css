@@ -41,6 +41,53 @@ body {
     margin-left: 150px;
 }
 
+.inicio{
+    width: 100%;
+    height: 615px;
+    padding-top: 180px;
+    box-sizing: border-box;
+}
+
+.txt_inicial_1, 
+.txt_inicial_2, 
+.txt_inicial_3{
+    margin-left: 160px;
+    display: flex;
+    align-items: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.txt_inicial_1{
+    font-size: 25px;
+}
+
+.txt_inicial_2{
+    font-size: 75px;
+}
+.martinhago{
+    color: aqua;
+    margin-left: 5px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.txt_inicial_3{
+    font-size: 30px;
+}
+
+.btn_linkedin{
+    width: 760px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+}
+
 .souEu {
     font-size: 20px;
     color: rgb(0, 0, 0);
