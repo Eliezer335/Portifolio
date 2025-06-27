@@ -42,6 +42,10 @@ body {
 }
 
 .inicio{
+    display: flex;
+}
+
+.apresentacao_inicio{
     width: 100%;
     height: 615px;
     padding-top: 180px;
@@ -88,15 +92,29 @@ body {
     border-radius: 15px;
 }
 
+.img_desenho{
+    width: 400px;
+    margin-right: 80px;
+}
+
 .souEu {
+    width: 100%;
+    height: 750px;
+    background-color: #000000;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     flex-direction: column;
-    margin-top: 55px;
+    margin-top: 2px;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+.h2_souEu{
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .apresentacao {
@@ -111,8 +129,8 @@ body {
 
 .imagem_apresentacao {
     display: flex;    
-    width: 240px;
-    height: 250px;
+    width: 340px;
+    height: 350px;
     border-radius: 50%;
     background-image: url("/imagem1.png");
     background-position: center;
@@ -126,14 +144,8 @@ body {
 
     width: 50%;
     height: auto;
-    background-color:  #4F4792;
-    border-radius: 22px;
     font-size: 23px;
-    padding: 15px;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 8px black;
-    margin-bottom: 100px;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tecnologias{
@@ -141,7 +153,6 @@ body {
     height: 450px;
     background-color: #262D37;
     color: white;
-
     text-align: center;
     
 }
