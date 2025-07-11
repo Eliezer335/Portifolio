@@ -150,8 +150,8 @@ body {
 
 .tecnologias{
     width: 100%;
-    height: 450px;
-    background-color: #262D37;
+    height: 850px;
+    background-color: #131f2e;
     color: white;
     text-align: center;
     
@@ -159,7 +159,9 @@ body {
 
 .tipos_de_tecnologias{
     display: flex;
-    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 
@@ -168,22 +170,39 @@ body {
     font-size: 35px;
 }
 
-.tecnologias_frontend {
-    width: 32%;
-    height: 280px;
-    background-color:#348263;
-    border-radius: 10px;
+.html{
+    width: 750px;
+    height: 150px;
+    border: 6px solid aqua;
+    border-radius: 25px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-
+    margin-bottom: 25px;
 }
-.paragrafoFrontend{
-    width: 100px;
+.icone_html{
+    width: 130px;
     display: flex;
-    align-items: center;
 }
+
+.conteudo_html{
+    width: 100%;
+}
+
+.titulo_html{
+    margin: 0px 0 5px 0;
+    color: aqua;
+}
+
+.txt_html{
+    font-size: 20px;
+}
+
+.nivel_html{
+    color: aqua;
+}
+
 
 .tecnologias_backend {
     width: 32%;
